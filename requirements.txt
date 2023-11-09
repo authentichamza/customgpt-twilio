@@ -2,6 +2,7 @@ flask
 twilio
 requests
 python-dotenv
+gunicorn
 redis
 celery
-customgpt_client
+customgpt_client # OPTIONAL if using sdk
