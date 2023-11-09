@@ -1,14 +1,6 @@
 from flask import Flask, request, make_response
-from twilio.twiml.messaging_response import MessagingResponse
-from dotenv import load_dotenv
-import os
-import json
-import requests
-import redis
 from tasks import process_sms
 from constants import Config
-
-redis_client = redis.from_url(Config.redis_url)
 
 app = Flask(__name__)
 
