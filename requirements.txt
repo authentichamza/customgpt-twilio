@@ -1,5 +1,6 @@
 flask
 twilio
-customgpt-client
 requests
 python-dotenv
+redis
+celery
