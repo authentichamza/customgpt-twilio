@@ -1,7 +1,4 @@
-Certainly! Here's the Markdown-formatted version of the README:
-
-```markdown
-# Twilio Chatbot with CustomGPT
+### Twilio Chatbot with CustomGPT
 
 This project integrates Twilio for SMS messaging with a CustomGPT-powered chatbot.
 
