@@ -42,10 +42,9 @@ This project integrates Twilio for SMS messaging with a CustomGPT-powered chatbo
 4. **After running the app, host it on ngrok or any domain.**
 
 5. **Configure Twilio:**
-	 - Get you AUTH_TOKEN and ACCOUNT_SID from twilio dashboard.
+   - Get you AUTH_TOKEN and ACCOUNT_SID and PHONENUMBER from twilio dashboard and add it to .env.
    - Go to Twilio Messaging Services, create a new service or use the default, and navigate to Integrations.
    - Select "Send to Webhook" and set your webhook URL to `{YOUR_DOMAIN}/webhook` in Twilio.
-   - In Twilio Phone Numbers, activate your number and copy it to the `TWILIO_PHONE_NUMBER` environment variable.
-   - In the phone number configuration, under messaging, select the service for SMS that has your webhook URL set.
+   - Go to phone number > active numbers > {SELECT A PHONE NUMBER} than in the phone number configuration, under messaging, select the service for SMS that has your webhook URL set.
 
 Now your Twilio Chatbot with CustomGPT is set up and running!
