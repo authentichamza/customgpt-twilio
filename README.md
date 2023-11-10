@@ -43,8 +43,12 @@ This project integrates Twilio for SMS messaging with a CustomGPT-powered chatbo
 
 5. **Configure Twilio:**
    - Get you AUTH_TOKEN and ACCOUNT_SID and PHONENUMBER from twilio dashboard and add it to .env.
+   ![Screenshot from 2023-11-10 05-42-26](https://github.com/authentichamza/customgpt-twilio/assets/43203240/f7d65213-d8b9-478f-aa32-398656eb3b54)
    - Go to Twilio Messaging Services, create a new service or use the default, and navigate to Integrations.
+   ![Screenshot from 2023-11-10 05-43-49](https://github.com/authentichamza/customgpt-twilio/assets/43203240/fe6586cf-c4a7-458d-844b-9494a06d643a)
    - Select "Send to Webhook" and set your webhook URL to `{YOUR_DOMAIN}/webhook` in Twilio.
+   ![Screenshot from 2023-11-10 05-44-07](https://github.com/authentichamza/customgpt-twilio/assets/43203240/8a43174d-6b5c-4d24-8fbe-d8e0fcd509ae) 
    - Go to phone number > active numbers > {SELECT A PHONE NUMBER} than in the phone number configuration, under messaging, select the service for SMS that has your webhook URL set.
 
 Now your Twilio Chatbot with CustomGPT is set up and running!
+
