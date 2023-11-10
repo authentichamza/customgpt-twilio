@@ -33,7 +33,10 @@ This project integrates Twilio for SMS messaging with a CustomGPT-powered chatbo
    ```
 
    **Otherwise, install Python 3.8:**
-
+   And install
+   ```bash
+   apt-get install -y redis-server
+   ```
    ```bash
    pip install -r requirements.txt
    run redis-server --daemonize yes && gunicorn -b 0.0.0.0:8000 --reload app:app & celery -A tasks worker -P threads --loglevel=debug
