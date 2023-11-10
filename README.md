@@ -18,7 +18,7 @@ This project integrates Twilio for SMS messaging with a CustomGPT-powered chatbo
    TWILIO_ACCOUNT_SID=your_twilio_account_sid
    CUSTOMGPT_API_KEY=your_customgpt_api_key
    CUSTOMGPT_PROJECT_ID=your_customgpt_project_id
-   REDIS_URL=your_redis_url
+   REDIS_URL=redis://localhost:6379
    TWILIO_PHONE_NUMBER=your_twilio_phone_number
    ```
 
