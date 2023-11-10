@@ -1,8 +1,8 @@
-flask
-twilio
-requests
-python-dotenv
-gunicorn
-redis
-celery
+flask==3.0.0
+twilio==8.10.1
+requests==2.31.0
+python-dotenv==1.0.0
+gunicorn==21.2.0
+redis==5.0.1
+celery==5.3.4
 customgpt_client # OPTIONAL if using sdk
