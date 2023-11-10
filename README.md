@@ -1,4 +1,4 @@
-### Twilio Chatbot with CustomGPT
+# Twilio Chatbot with CustomGPT
 
 This project integrates Twilio for SMS messaging with a CustomGPT-powered chatbot.
 
@@ -7,8 +7,8 @@ This project integrates Twilio for SMS messaging with a CustomGPT-powered chatbo
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone git@github.com:authentichamza/customgpt-twilio.git
+   cd customgpt-twilio
    ```
 
 2. **Create a `.env` file in the project root and add the following environment variables:**
